@@ -1,0 +1,95 @@
+body{
+    background-color: pink;
+}
+
+.userCard{
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 450px;
+    text-align: center;
+    box-sizing: border-box;         
+}
+
+.avatar{
+    background-color: white;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: -65px auto 0;
+    overflow: hidden;
+    padding: 5px;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 100;
+}
+
+.cardHead{
+    height: 100px;
+    background-color: pink;
+}
+
+.avatar > img{
+    object-fit: cover;
+    height:100%;
+    border-radius: 50%;
+    width:100%;
+}
+
+.userCard > h2{
+    font-size: 32px;
+}
+
+.userCard > h3{
+    margin-top: -10px;
+    font-style: oblique 80deg;
+    font-size: 26px;
+    color: grey;
+}
+
+.sp{
+    margin-top: -15px;
+}
+
+.sp > span{
+    font-size:22px;
+    color:grey;
+}
+
+hr{
+    width: 75%;
+    margin: 20px auto;
+}
+
+.pic > img{
+    object-fit: cover;
+    height: 60px;
+    border-radius: 50%;
+    width: 60px;
+}
+
+.pic + .pic{
+    margin-left: 15px;
+}
+
+.icon > img{
+    height: 35px;
+    width: 35px;
+}
+
+.iconCont{
+    display: flex;
+    width: 70%;
+    margin:0 auto; 
+}
+
+.iconCont > span{
+    margin: 25px auto 0;
+}
+
+.vl {
+    margin-top: 35px;
+    border-left: 2px solid black;
+    height: 45px;
+}
